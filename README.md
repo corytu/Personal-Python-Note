@@ -6,6 +6,9 @@
 ## Basic functions
 * `type` for getting the data type of the object in Python.
 
+## Functions for programming in Python
+* `lambda`s are Python's way of creating anonymous functions. This is unlike R. "You declare a lambda function with the word `lambda` followed by a list of arguments, followed by a colon and then a single expression and this is key. There's only one expression to be evaluated in a lambda. The expression value is returned on execution of the lambda." Click [here](Defining_functions_in_R_and_Python.md) for detailed comparison of R and Python.
+
 ## Functions do loops or parallel operations
 * `map` is kind of like `sapply` in R. See [split_title_and_name](split_title_and_name.py) for an example.
 
