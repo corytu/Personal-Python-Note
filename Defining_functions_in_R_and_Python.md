@@ -32,3 +32,21 @@ for person in people:
 # Option 2
 list(map(split_title_and_name, people)) == list(map(lambda person: person.split()[0] + ' ' + person.split()[-1], people))
 ```
+### R way to simulate the above solution
+```r
+people <- c('Dr. Christopher Brooks', 'Dr. Kevyn Collins-Thompson', 'Dr. VG Vinod Vydiswaran', 'Dr. Daniel Romero')
+
+# Option 1
+split_people <- strsplit(people, " ")
+paste_tile_and_name <- function(splits) {
+  paste(splits[1], splits[length(splits)])
+}
+sapply(split_people, paste_tile_and_name)
+
+# Option 2
+split_title_and_name <- function(person) {
+  splits <- unlist(strsplit(person, " "))
+  paste(splits[1], splits[length(splits)])
+}
+unname(sapply(people, split_title_and_name))
+```
