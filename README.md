@@ -2,6 +2,8 @@
 ## Getting help
 * `help`. For instance, `help(len)`, or `help(tuple.index)` for known functions or methods.
 * `dir`. For instance, `dir(list)` for all methods for lists.
+* [函數有無返回值？](https://www.ptt.cc/bbs/Python/M.1514366821.A.326.html)
+* [Re: 函數有無返回值？](https://www.ptt.cc/bbs/Python/M.1514546205.A.FEE.html)
 
 ## Basic functions
 * `type` for getting the data type of the object in Python.
