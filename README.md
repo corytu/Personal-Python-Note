@@ -7,6 +7,8 @@
 
 ## Basic functions
 * `type` for getting the data type of the object in Python.
+* `len` for getting the length of the object. _(cf: `length` in R)_
+* `set` for getting unique values in the object without returning them explicitly. _(cf: `unique` in R)_
 
 ## Comparison
 * My Gist [comparison.py](https://gist.github.com/corytu/c4fbd7c330c8a33c45965c5cad16ab38) demonstrates the difference between `==` and `is`. Besides I mention `pd.DataFrame.equals` there for comparing DataFrames.
@@ -17,6 +19,11 @@
 ## Functions do loops or parallel operations
 * `map` is kind of like `sapply` in R. See [defining functions in R and Python](Defining_functions_in_R_and_Python.md) for an example.
 
-## Stack Overflow articles
+## Stack Overflow threads
+### Python in general
 * [Create list with numbers between 2 values](https://stackoverflow.com/questions/18265935/python-create-list-with-numbers-between-2-values)
 * [Should a return statement have parentheses?](https://stackoverflow.com/questions/4978567/should-a-return-statement-have-parentheses)
+
+### NumPy
+* [Index multiple, non-adjacent ranges in numpy](https://stackoverflow.com/questions/34188620/index-multiple-non-adjacent-ranges-in-numpy): `np.r_`
+* [Slicing multiple, non-contiguous rows and columns from a numpy array or matrix](https://www.reddit.com/r/learnpython/comments/33buya/slicing_multiple_noncontiguous_rows_and_columns/): `np.ix_`
