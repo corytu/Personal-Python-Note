@@ -11,7 +11,7 @@
 ## Basic functions
 * `type` for getting the data type of the object in Python.
 * `len` for getting the length of the object. _(cf: `length` in R)_
-* `set` for getting unique values in the object without returning them explicitly. _(cf: `unique` in R)_
+* `set` for getting unique values in the object. _(cf: `unique` in R; `pandas.Series.unique` in pandas library)_
 
 ## Comparison
 * My Gist [comparison.py](https://gist.github.com/corytu/c4fbd7c330c8a33c45965c5cad16ab38) demonstrates the difference between `==` and `is`. Besides I mention `pd.DataFrame.equals` there for comparing DataFrames.
