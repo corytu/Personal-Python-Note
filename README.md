@@ -5,6 +5,9 @@
 * [函數有無返回值？](https://www.ptt.cc/bbs/Python/M.1514366821.A.326.html)
 * [Re: 函數有無返回值？](https://www.ptt.cc/bbs/Python/M.1514546205.A.FEE.html)
 
+## Assigning values
+* `=`. `a = b` means that `a is b` is `True` and they share the same memory, i.e. changing a will change b. _(cf: `a = b` or `a <- b` in R copies b and assigns that to a, i.e. changing a won't change b. Read also [Use "<-" or "="](https://corytu.github.io/Coursera-R-Mentoring/use-equal-or-arrow.html).)_
+
 ## Basic functions
 * `type` for getting the data type of the object in Python.
 * `len` for getting the length of the object. _(cf: `length` in R)_
