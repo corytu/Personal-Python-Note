@@ -22,6 +22,12 @@
 ## Functions do loops or parallel operations
 * `map` is kind of like `sapply` in R. See [defining functions in R and Python](Defining_functions_in_R_and_Python.md) for an example.
 
+## Useful packages (ordered alphabetically)
+* [NumPy](http://www.numpy.org)<br>
+"NumPy is the fundamental package for scientific computing with Python."
+* [Pandas](https://pandas.pydata.org)<br>
+"pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language."
+
 ## Stack Overflow threads
 ### Python in general
 * [Create list with numbers between 2 values](https://stackoverflow.com/questions/18265935/python-create-list-with-numbers-between-2-values)
