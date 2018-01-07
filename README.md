@@ -36,3 +36,6 @@
 ### NumPy
 * [Index multiple, non-adjacent ranges in numpy](https://stackoverflow.com/questions/34188620/index-multiple-non-adjacent-ranges-in-numpy): `np.r_`
 * [Slicing multiple, non-contiguous rows and columns from a numpy array or matrix](https://www.reddit.com/r/learnpython/comments/33buya/slicing_multiple_noncontiguous_rows_and_columns/): `np.ix_`
+
+### Pandas
+* [Select one cell when pandas DataFrame has hierarchical index](https://stackoverflow.com/questions/35611786/select-one-cell-when-pandas-dataframe-has-hierarchical-index)
