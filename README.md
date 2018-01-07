@@ -38,4 +38,4 @@
 * [Slicing multiple, non-contiguous rows and columns from a numpy array or matrix](https://www.reddit.com/r/learnpython/comments/33buya/slicing_multiple_noncontiguous_rows_and_columns/): `np.ix_`
 
 ### Pandas
-* [Select one cell when pandas DataFrame has hierarchical index](https://stackoverflow.com/questions/35611786/select-one-cell-when-pandas-dataframe-has-hierarchical-index)
+* [Select one cell when pandas DataFrame has hierarchical index](https://stackoverflow.com/questions/35611786/select-one-cell-when-pandas-dataframe-has-hierarchical-index): Use a tuple to wrap the multiple indexes
