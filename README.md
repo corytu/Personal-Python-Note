@@ -32,6 +32,7 @@
 ### Python in general
 * [Create list with numbers between 2 values](https://stackoverflow.com/questions/18265935/python-create-list-with-numbers-between-2-values)
 * [Should a return statement have parentheses?](https://stackoverflow.com/questions/4978567/should-a-return-statement-have-parentheses)
+* [How to use \*args and \*\*kwargs in Python](https://www.saltycrane.com/blog/2008/01/how-to-use-args-and-kwargs-in-python/)
 
 ### NumPy
 * [Index multiple, non-adjacent ranges in numpy](https://stackoverflow.com/questions/34188620/index-multiple-non-adjacent-ranges-in-numpy): `np.r_`
