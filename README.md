@@ -23,6 +23,8 @@
 * `map` is kind of like `sapply` in R. See [defining functions in R and Python](Defining_functions_in_R_and_Python.md) for an example.
 
 ## Useful packages (ordered alphabetically)
+* [fancyimpute](https://pypi.python.org/pypi/fancyimpute/0.3.0)<br>
+"A variety of matrix completion and imputation algorithms implemented in Python," including MICE and k-NN.
 * [NumPy](http://www.numpy.org)<br>
 "NumPy is the fundamental package for scientific computing with Python."
 * [Pandas](https://pandas.pydata.org)<br>
