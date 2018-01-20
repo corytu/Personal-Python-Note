@@ -45,3 +45,4 @@
 * [How to determine whether a Pandas column contains a particular value](https://stackoverflow.com/questions/21319929/how-to-determine-whether-a-pandas-column-contains-a-particular-value)
 * [Renaming columns in pandas](https://stackoverflow.com/questions/11346283/renaming-columns-in-pandas/46912050): `pd.DataFrame.rename`, `pd.DataFrame.set_axis`, or assign values to `pd.DataFrame.columns` (can't be part of method chain though)
 * [Select one cell when pandas DataFrame has hierarchical index](https://stackoverflow.com/questions/35611786/select-one-cell-when-pandas-dataframe-has-hierarchical-index): Use a tuple to wrap the multiple indexes
+* [Select two sets of columns by column names in Pandas](https://stackoverflow.com/questions/48356052/select-two-sets-of-columns-by-column-names-in-pandas)
