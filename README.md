@@ -1,4 +1,7 @@
 # Personal-Python-Notes
+## General
+* [Naming conventions of Python](https://www.python.org/dev/peps/pep-0008/#naming-conventions)
+
 ## Getting help
 * `help`. For instance, `help(len)`, or `help(tuple.index)` for known functions or methods.
 * `dir`. For instance, `dir(list)` for all methods for lists.
