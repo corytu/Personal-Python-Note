@@ -36,6 +36,7 @@
 ## Stack Overflow threads
 ### Python in general
 * [Create list with numbers between 2 values](https://stackoverflow.com/questions/18265935/python-create-list-with-numbers-between-2-values)
+* [Formatting strings with numeric sequences to generate a list of strings ordered by the numbers in Python](https://stackoverflow.com/questions/48723327/formatting-strings-with-numeric-sequences-to-generate-a-list-of-strings-ordered)
 * [Should a return statement have parentheses?](https://stackoverflow.com/questions/4978567/should-a-return-statement-have-parentheses)
 * [How to use \*args and \*\*kwargs in Python](https://www.saltycrane.com/blog/2008/01/how-to-use-args-and-kwargs-in-python/)
 
