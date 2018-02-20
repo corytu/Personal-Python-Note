@@ -1,5 +1,6 @@
 # Personal-Python-Notes
 ## General
+* [How to use \*args and \*\*kwargs in Python](https://www.saltycrane.com/blog/2008/01/how-to-use-args-and-kwargs-in-python/)
 * [Naming conventions of Python](https://www.python.org/dev/peps/pep-0008/#naming-conventions)
 
 ## Getting help
@@ -32,21 +33,3 @@
 "NumPy is the fundamental package for scientific computing with Python."
 * [Pandas](https://pandas.pydata.org)<br>
 "pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language."
-
-## Stack Overflow threads
-### Python in general
-* [Create list with numbers between 2 values](https://stackoverflow.com/questions/18265935/python-create-list-with-numbers-between-2-values)
-* [Formatting strings with numeric sequences to generate a list of strings ordered by the numbers in Python](https://stackoverflow.com/questions/48723327/formatting-strings-with-numeric-sequences-to-generate-a-list-of-strings-ordered)
-* [Should a return statement have parentheses?](https://stackoverflow.com/questions/4978567/should-a-return-statement-have-parentheses)
-* [How to use \*args and \*\*kwargs in Python](https://www.saltycrane.com/blog/2008/01/how-to-use-args-and-kwargs-in-python/)
-
-### NumPy
-* [Index multiple, non-adjacent ranges in numpy](https://stackoverflow.com/questions/34188620/index-multiple-non-adjacent-ranges-in-numpy): `np.r_`
-* [Slicing multiple, non-contiguous rows and columns from a numpy array or matrix](https://www.reddit.com/r/learnpython/comments/33buya/slicing_multiple_noncontiguous_rows_and_columns/): `np.ix_`
-
-### Pandas
-* [Find element's index in Pandas Series](https://stackoverflow.com/questions/18327624/find-elements-index-in-pandas-series)
-* [How to determine whether a Pandas column contains a particular value](https://stackoverflow.com/questions/21319929/how-to-determine-whether-a-pandas-column-contains-a-particular-value)
-* [Renaming columns in pandas](https://stackoverflow.com/questions/11346283/renaming-columns-in-pandas/46912050): `pd.DataFrame.rename`, `pd.DataFrame.set_axis`, or assign values to `pd.DataFrame.columns` (can't be part of method chain though)
-* [Select one cell when pandas DataFrame has hierarchical index](https://stackoverflow.com/questions/35611786/select-one-cell-when-pandas-dataframe-has-hierarchical-index): Use a tuple to wrap the multiple indexes
-* [Select two sets of columns by column names in Pandas](https://stackoverflow.com/questions/48356052/select-two-sets-of-columns-by-column-names-in-pandas)
