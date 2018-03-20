@@ -32,4 +32,4 @@
 * [NumPy](http://www.numpy.org)<br>
 "NumPy is the fundamental package for scientific computing with Python."
 * [Pandas](https://pandas.pydata.org)<br>
-"pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language."
+"pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language." See [Comparison with R / R libraries](https://pandas.pydata.org/pandas-docs/stable/comparison_with_r.html) for reference to equivalent functionality in R.
