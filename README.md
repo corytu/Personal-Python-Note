@@ -1,4 +1,4 @@
-# Personal-Python-Notes
+# Python Notes
 
 ## General
 * [Naming conventions of Python](https://www.python.org/dev/peps/pep-0008/#naming-conventions) from PEP 8
@@ -14,11 +14,12 @@
 * `type` returns the data type of the object in Python.
 * `import` is like `source` and `library` in R, sourcing packages or script files.
 * `len` returns the length of the object. _(cf: `length` in R)_
-* `set` returns unique values in the object, and that allows mathematical set operations. _(cf: `unique` in R; `pandas.Series.unique` in pandas library)_
+* `set` returns unique values in the object, and that allows mathematical set operations. `list(set(a_list))` is a way to have unique values in the list `a_list`. _(cf: `unique` in R; `pandas.Series.unique` in pandas library)_
 * `zip` returns a mapped iterable from multiple instances (objects).
+* `enumerate` returns an enumerate object. It is useful with `itemgetter` in [`operator` module](https://docs.python.org/3/library/operator.html) when [finding maximum value and its index in a list](https://stackoverflow.com/questions/6193498/pythonic-way-to-find-maximum-value-and-its-index-in-a-list/).
 
 ## Assigning values
-* `=`. `a = b` means that `a is b` is `True` and they share the same memory, i.e. changing a will change b. _(cf: `a = b` or `a <- b` in R copies b and assigns that to a, i.e. changing a won't change b. Read also [Use "<-" or "="](https://corytu.github.io/Coursera-R-Mentoring/use-equal-or-arrow.html).)_
+* `=`. `a = b` means that `a is b` is `True` and they share the same memory, i.e. changing a will change b. _(cf: `a = b` or `a <- b` in R copies b and assigns that to a, i.e. changing a won't change b. Read also [Use "<-" or "="](https://corytu.github.io/CourseraRMentoring/use-equal-or-arrow.html).)_
 
 ## Comparison
 * My Gist [comparison.py](https://gist.github.com/corytu/c4fbd7c330c8a33c45965c5cad16ab38) demonstrates the difference between `==` and `is`. Besides I mention `pd.DataFrame.equals` there for comparing DataFrames.
@@ -39,4 +40,6 @@
 * [NumPy](http://www.numpy.org)<br>
 "NumPy is the fundamental package for scientific computing with Python."
 * [Pandas](https://pandas.pydata.org)<br>
-"pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language." See [Comparison with R / R libraries](https://pandas.pydata.org/pandas-docs/stable/comparison_with_r.html) for reference to equivalent functionality in R.
+"pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language."
+  * See [Comparison with R / R libraries](https://pandas.pydata.org/pandas-docs/stable/comparison_with_r.html) for reference to equivalent functionality in R.
+  * Check [my asked questions about `Pandas` on Stack Overflow](https://stackoverflow.com/search?q=user:6666231+[pandas]).
