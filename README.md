@@ -26,7 +26,8 @@
 
 > While [The Python Language Reference](https://docs.python.org/3/reference/index.html) describes the exact syntax and semantics of the Python language, this library reference manual describes the standard library that is distributed with Python. It also describes some of the optional components that are commonly included in Python distributions.
 
-* [`venv`](https://docs.python.org/3/library/venv.html) provides a convinient way to creat "lightweight 'virtual environments'". Good to also see [docker](https://www.docker.com) for a scalable solution.
+* [`venv`](https://docs.python.org/3/library/venv.html) provides a convinient way to creat "lightweight 'virtual environments'". Read [Virtual Environments and Packages](https://docs.python.org/3/tutorial/venv.html) for the official tutorial.
+  * Good to also check [docker](https://docs.docker.com/get-started/) for a scalable, VM-like solution. [Python docker hub](https://hub.docker.com/_/python/) for getting Python environment in docker.
 
 ### [Built-in functions](https://docs.python.org/3/library/functions.html)
 
