@@ -27,7 +27,6 @@
 > While [The Python Language Reference](https://docs.python.org/3/reference/index.html) describes the exact syntax and semantics of the Python language, this library reference manual describes the standard library that is distributed with Python. It also describes some of the optional components that are commonly included in Python distributions.
 
 * [`venv`](https://docs.python.org/3/library/venv.html) provides a convinient way to creat "lightweight 'virtual environments'". Read [Virtual Environments and Packages](https://docs.python.org/3/tutorial/venv.html) for the official tutorial.
-  * Good to also check [docker](https://docs.docker.com/get-started/) for a scalable, VM-like solution. [Python docker hub](https://hub.docker.com/_/python/) for getting Python environment in docker.
 
 ### [Built-in functions](https://docs.python.org/3/library/functions.html)
 
@@ -81,3 +80,11 @@ Unlike R, Python is usually __not__ a functional programming language. Still, th
 * [regex](https://pypi.org/project/regex/)
 
   > This regex implementation is backwards-compatible with the standard 're' module, but offers additional functionality.
+
+## Engineering tools using Python
+
+* [docker](https://www.docker.com)
+	* A scalable, VM-like solution
+	* Official [getting started](https://docs.docker.com/get-started/)
+	* [Python docker hub](https://hub.docker.com/_/python/) for getting Python environment in docker
+	* [Personal notes of docker](docker_docs.md)
