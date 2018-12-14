@@ -59,7 +59,7 @@ Some suggested that the syntax of .dockerignore is different from .gitignore (se
 
 ## Build an Image with Dockerfile
 
-1. Execute `sudo usermod -aG docker <your_username>` before doing anything related to `docker` commands in order to grant yourself permissions.
+1. (When needed) Execute `sudo usermod -aG docker <your_username>` before doing anything related to `docker` commands in order to grant yourself permissions.
 2. Execute `docker build -t <image_name> .` in the folder where Dockerfile exists.
   - If you have `ARG` set in Dockerfile, do `docker build --build-arg <set_arg>=<arg_value> -t <image_name> .`.
   - If you need to build an image without using cached resources (e.g. for debug purposes), do `docker build --no-cache -t <image_name> .`.
