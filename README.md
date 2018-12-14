@@ -51,7 +51,7 @@
 Unlike R, Python is usually __not__ a functional programming language. Still, these following functionalities provide essential help or comparison.
 
 * `lambda` are Python's way of creating anonymous functions. This is unlike R.
-  
+
   > You declare a lambda function with the word `lambda` followed by a list of arguments, followed by a colon and then a single expression and this is key. There's only one expression to be evaluated in a lambda. The expression value is returned on execution of the lambda.
 
 * `map` is kind of like `sapply` in R. See [defining functions in R and Python](Defining_functions_in_R_and_Python.md) for an example.
@@ -88,3 +88,20 @@ Unlike R, Python is usually __not__ a functional programming language. Still, th
 	* Official [getting started](https://docs.docker.com/get-started/)
 	* [Python docker hub](https://hub.docker.com/_/python/) for getting Python environment in docker
 	* [Personal notes of docker](docker_docs.md)
+
+* [gRPC](https://grpc.io)
+	* Build protocol for backend services ([What is gRPC?](https://grpc.io/docs/guides/index.html))
+	* [Official documents](https://grpc.io/docs/) by languages
+	* [Proto3 language guide](https://developers.google.com/protocol-buffers/docs/proto3)
+	* [gRPC/Python docker hub](https://hub.docker.com/r/grpc/python) for building gRPC services in Python in docker environment
+	* [gRPC GitHub](https://github.com/grpc/grpc)
+	* Comparing gRPC with REST
+		* [REST vs. gRPC: Battle of the APIs](https://code.tutsplus.com/tutorials/rest-vs-grpc-battle-of-the-apis--cms-30711)
+		* [How gRPC is convinced to be chose over REST](https://medium.com/@sankar.p/how-grpc-convinced-me-to-chose-it-over-rest-30408bf42794)
+		* [How is gRPC different from REST?](https://stackoverflow.com/questions/43682366/how-is-grpc-different-from-rest)
+	* References in practice
+		* [How to get top-level protobuf enum value name by number in python?](https://stackoverflow.com/q/11502113/6666231)
+		* Handing errors in gRPC
+			* [gRPC errors - A handy guide to gRPC errors](http://avi.im/grpc-errors/)
+			* [Raising a server error to the client with gRPC](https://stackoverflow.com/q/40998199/6666231)
+			* [Status codes and their use in gRPC](https://github.com/grpc/grpc/blob/master/doc/statuscodes.md)
