@@ -70,8 +70,12 @@ Unlike R, Python is usually __not__ a functional programming language. Still, th
 
   > Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
 
-  * See [Comparison with R / R libraries](https://pandas.pydata.org/pandas-docs/stable/comparison_with_r.html) for reference to equivalent functionality in R.
+  * See [Comparison with R / R libraries](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_r.html) for reference to equivalent functionality in R.
   * Check [my asked questions about `Pandas` on Stack Overflow](https://stackoverflow.com/search?q=user:6666231+[pandas]).
+
+* [pipenv](https://pipenv.pypa.io/en/latest/)
+
+  > Python dev workflow for humans
 
 * [pipreqs](https://github.com/bndr/pipreqs)
 
